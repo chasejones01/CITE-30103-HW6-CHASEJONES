@@ -1,0 +1,19 @@
+Original:
+	int 1value = 10; // 
+	float avg-rate = 12.5;
+	char Class = 'A'; 
+
+Errors and Explanations:
+	1. '1value" - invalid since identifiers cannot begin with a digit.
+		Correction: int value1 = 10;
+	2. 'avg-rate' - invalid because hyphens (-) are not allowed in the names of variables.
+		Correction: float avg_rate = 12.5;
+	3. 'Class' - is valid and begins with a capital letter which is allowed in C, but it utilzes a name that could conflict with keywords in other languages; best practice to avoid reserved-like namesand use lowercase for variable names
+		Correction: char class_grade = 'A';
+
+Fixed Code:
+	int value1 = 10;
+	float avg_rate = 12.5;
+	char class_grade = 'A';
+
+Rules: Identifiers must start with letters or underscore and can contain letters, digits, underscores only.
