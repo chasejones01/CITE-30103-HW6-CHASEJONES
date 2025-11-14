@@ -1,5 +1,6 @@
 /* Documentation Section:
 Program: Calculate the  Area and Perimeter of a Rectangle.
+Author: Chase Jones
 Date: 11-09-2025
 */
 
