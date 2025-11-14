@@ -1,0 +1,13 @@
+Question 8 - Global verses Local Scope
+
+global_var is declared outside main() function : this is a global variable
+	- File scope and accessible anywhere in this file after declaration
+	- Exists for the entire program lifetime and execution
+
+local_var is declared inside main() function : this is a local variable
+	- Block scope and accessible only within main().
+	- Exists only while main() is executing and not visible outside
+
+Example of Output:
+Global variable: 25
+Local variable: 5
