@@ -1,0 +1,3 @@
+If #include <stdio.h> is removed from a program that calls printf:
+	- The preprocessor stage suceds (no include), the compiler may warn or error sicne printf prototypeis missing: "implicit declaration of function 'printf'".
+	- Linker might succeed since printf is in libc, but without prototype behavior is undefined.
