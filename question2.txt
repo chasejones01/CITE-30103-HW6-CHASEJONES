@@ -1,0 +1,22 @@
+Question 2: Stages of a C Program from Source Code to Execution.
+
+Stages:
+1. Preprocessing
+	- Handles #include, #define, and macros, generating expanded source file.
+	- Possible Error: missing header file (e.g., "fatal error: stdio.h: No such file or directory").
+
+2. Compilation
+	- Converts the expanded C code into assembly code.
+	- Possible Error: syntax error (e.g., missing semicolon).
+
+3. Assembly
+	- Converts assembly code into machine/object code (.o file).
+	- Possible Error: Invalid assembly instruction.
+
+4. Linking
+	- Combines object files and required libraries into an executable file.
+	- Possible Error: undefined reference to a function (e.g., printf)
+
+5. Loading/Execution
+	- Operating system loads program into memory and begins execution.
+	- Possible Error: runtime error like segmentation fault.
