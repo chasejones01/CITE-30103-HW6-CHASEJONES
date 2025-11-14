@@ -1,3 +1,4 @@
+/* Q5: Read an integer and print it (fix scanf) */
 #include <stdio.h>
 int main() {
 	int n;
